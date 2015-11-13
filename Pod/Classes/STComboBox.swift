@@ -56,10 +56,10 @@ import UIKit
         //ret.barStyle = toolBarStyle
         pickerToolbar.sizeToFit()
         
-        let done = UIBarButtonItem(title: "Selecionar", style: UIBarButtonItemStyle.Done, target: self, action: "doneClicked:");
+        let done = UIBarButtonItem(title: "Select", style: UIBarButtonItemStyle.Done, target: self, action: "doneClicked:");
         
         
-        let cancel = UIBarButtonItem(title: "Cancelar", style: UIBarButtonItemStyle.Plain, target: self, action: "cancelClicked:")
+        let cancel = UIBarButtonItem(title: "Cancel", style: UIBarButtonItemStyle.Plain, target: self, action: "cancelClicked:")
         
         toolBar = pickerToolbar;
         
@@ -83,7 +83,7 @@ import UIKit
     }
     
     public func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return data?[row] ?? "<Vazio>"
+        return data?[row] ?? "<Empty>"
     }
     
     //MARK: - TextFieldDelegate

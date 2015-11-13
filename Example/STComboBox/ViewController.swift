@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import STComboBox
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var combo: STComboBox!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        combo.data = ["Orange", "Apple", "Banana", "Mellon", "Lemon", "Grape"]
     }
 
     override func didReceiveMemoryWarning() {

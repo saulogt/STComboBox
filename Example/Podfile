@@ -8,8 +8,5 @@ end
 target 'STComboBox_Tests', :exclusive => true do
   pod "STComboBox", :path => "../"
 
-  pod 'Quick', '~> 0.3.1'
-  pod 'Nimble'
   pod 'FBSnapshotTestCase'
-  pod 'Nimble-Snapshots'
 end
