@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		466CAD6BE81CD39888814842 /* Pods_STComboBox_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2104E9C6B5E6AC0277BB41DA /* Pods_STComboBox_Tests.framework */; };
+		1CF0DF427D1860C51D5E48D7 /* Pods_STComboBox_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DD3A19598449C93CBA8F13 /* Pods_STComboBox_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		81B7E15A11076B0AD2E13CF8 /* Pods_STComboBox_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD64A3D15E633EC822FC9DF /* Pods_STComboBox_Example.framework */; };
+		C2870C4597556A79ECBB1CBB /* Pods_STComboBox_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E55F1860EF73579E339E4E /* Pods_STComboBox_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CD64A3D15E633EC822FC9DF /* Pods_STComboBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STComboBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2104E9C6B5E6AC0277BB41DA /* Pods_STComboBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STComboBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A9FD80BE0BE902883E2B01A /* Pods-STComboBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STComboBox_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STComboBox_Tests/Pods-STComboBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		32E25193C6394ED5BC0ED3C0 /* Pods-STComboBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STComboBox_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STComboBox_Tests/Pods-STComboBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* STComboBox_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STComboBox_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +39,13 @@
 		607FACE51AFB9204008FA782 /* STComboBox_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STComboBox_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		60E55F1860EF73579E339E4E /* Pods_STComboBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STComboBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DD3A19598449C93CBA8F13 /* Pods_STComboBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STComboBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC6D2E5BBBE017310AD514B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D059FA08D4406C65F29B67E7 /* Pods-STComboBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STComboBox_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-STComboBox_Example/Pods-STComboBox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		840ACFDD7857283401688BA2 /* Pods-STComboBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STComboBox_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-STComboBox_Example/Pods-STComboBox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BDE7D51EE83C34670A341795 /* Pods-STComboBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STComboBox_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STComboBox_Tests/Pods-STComboBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E70D442F0FA7116DEE05D734 /* STComboBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = STComboBox.podspec; path = ../STComboBox.podspec; sourceTree = "<group>"; };
-		EA20A2F9F30C21DD9981AD07 /* Pods-STComboBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STComboBox_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STComboBox_Example/Pods-STComboBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F8114000ED782CA029EB03AC /* Pods-STComboBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STComboBox_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STComboBox_Tests/Pods-STComboBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EF58E3EFE5BE41ACD8BC0610 /* Pods-STComboBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STComboBox_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STComboBox_Example/Pods-STComboBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FA51365C4F7E4B26CF833E88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B7E15A11076B0AD2E13CF8 /* Pods_STComboBox_Example.framework in Frameworks */,
+				1CF0DF427D1860C51D5E48D7 /* Pods_STComboBox_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				466CAD6BE81CD39888814842 /* Pods_STComboBox_Tests.framework in Frameworks */,
+				C2870C4597556A79ECBB1CBB /* Pods_STComboBox_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +76,8 @@
 				607FACD21AFB9204008FA782 /* Example for STComboBox */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				D67FB3EE8741A0E3C0DEDC66 /* Pods */,
-				B74854E734383E3F694C08EB /* Frameworks */,
+				72878A8E4208C862A71366AF /* Pods */,
+				FB938D1FDD34332B200226B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,24 +139,24 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		B74854E734383E3F694C08EB /* Frameworks */ = {
+		72878A8E4208C862A71366AF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0CD64A3D15E633EC822FC9DF /* Pods_STComboBox_Example.framework */,
-				2104E9C6B5E6AC0277BB41DA /* Pods_STComboBox_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D67FB3EE8741A0E3C0DEDC66 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EA20A2F9F30C21DD9981AD07 /* Pods-STComboBox_Example.debug.xcconfig */,
-				D059FA08D4406C65F29B67E7 /* Pods-STComboBox_Example.release.xcconfig */,
-				4A9FD80BE0BE902883E2B01A /* Pods-STComboBox_Tests.debug.xcconfig */,
-				F8114000ED782CA029EB03AC /* Pods-STComboBox_Tests.release.xcconfig */,
+				EF58E3EFE5BE41ACD8BC0610 /* Pods-STComboBox_Example.debug.xcconfig */,
+				840ACFDD7857283401688BA2 /* Pods-STComboBox_Example.release.xcconfig */,
+				BDE7D51EE83C34670A341795 /* Pods-STComboBox_Tests.debug.xcconfig */,
+				32E25193C6394ED5BC0ED3C0 /* Pods-STComboBox_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB938D1FDD34332B200226B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66DD3A19598449C93CBA8F13 /* Pods_STComboBox_Example.framework */,
+				60E55F1860EF73579E339E4E /* Pods_STComboBox_Tests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,12 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "STComboBox_Example" */;
 			buildPhases = (
-				400A5CEDEAD85F81CBE54408 /* Check Pods Manifest.lock */,
+				72D7671E554AC1A592CD5A29 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				9EFA1C5E6325AE965A24A612 /* Embed Pods Frameworks */,
-				E08EFEB7BC4A1B1369F64628 /* Copy Pods Resources */,
+				20D6D30554132D4CBA7421B6 /* [CP] Embed Pods Frameworks */,
+				8B3A1F3EB5BBEC36DB4B4C38 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "STComboBox_Tests" */;
 			buildPhases = (
-				9C5018230385864B7CDCCB93 /* Check Pods Manifest.lock */,
+				56645A1065C50991B5969A5C /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				5AD1B9DEE2C716D2669342B8 /* Embed Pods Frameworks */,
-				8A5EC06BBBDBA5AEFD09BA82 /* Copy Pods Resources */,
+				70A5837C081C6D03A676C069 /* [CP] Embed Pods Frameworks */,
+				A3CF0301260AFC9F1903A274 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,74 +262,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		400A5CEDEAD85F81CBE54408 /* Check Pods Manifest.lock */ = {
+		20D6D30554132D4CBA7421B6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5AD1B9DEE2C716D2669342B8 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STComboBox_Tests/Pods-STComboBox_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8A5EC06BBBDBA5AEFD09BA82 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STComboBox_Tests/Pods-STComboBox_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9C5018230385864B7CDCCB93 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9EFA1C5E6325AE965A24A612 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,19 +277,79 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STComboBox_Example/Pods-STComboBox_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E08EFEB7BC4A1B1369F64628 /* Copy Pods Resources */ = {
+		56645A1065C50991B5969A5C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70A5837C081C6D03A676C069 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STComboBox_Tests/Pods-STComboBox_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72D7671E554AC1A592CD5A29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B3A1F3EB5BBEC36DB4B4C38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STComboBox_Example/Pods-STComboBox_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3CF0301260AFC9F1903A274 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STComboBox_Tests/Pods-STComboBox_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -485,7 +485,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA20A2F9F30C21DD9981AD07 /* Pods-STComboBox_Example.debug.xcconfig */;
+			baseConfigurationReference = EF58E3EFE5BE41ACD8BC0610 /* Pods-STComboBox_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = STComboBox/Info.plist;
@@ -497,7 +497,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D059FA08D4406C65F29B67E7 /* Pods-STComboBox_Example.release.xcconfig */;
+			baseConfigurationReference = 840ACFDD7857283401688BA2 /* Pods-STComboBox_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = STComboBox/Info.plist;
@@ -509,7 +509,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A9FD80BE0BE902883E2B01A /* Pods-STComboBox_Tests.debug.xcconfig */;
+			baseConfigurationReference = BDE7D51EE83C34670A341795 /* Pods-STComboBox_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -529,7 +529,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8114000ED782CA029EB03AC /* Pods-STComboBox_Tests.release.xcconfig */;
+			baseConfigurationReference = 32E25193C6394ED5BC0ED3C0 /* Pods-STComboBox_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

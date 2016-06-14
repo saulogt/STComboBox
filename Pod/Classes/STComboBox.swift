@@ -123,4 +123,16 @@ import UIKit
         
     }
     
+    //MARK: - disable paste and select
+    
+    public override func canPerformAction(action: Selector, withSender sender: AnyObject?) -> Bool {
+        if action == "paste:" || action == "select:" ||
+         action == "cut:" || action == "selectAll:" ||
+         action == "delete:" {
+            return false;
+        }
+        return true;
+    }
+    
+    
 }
