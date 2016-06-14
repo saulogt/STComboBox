@@ -56,10 +56,10 @@ import UIKit
         //ret.barStyle = toolBarStyle
         pickerToolbar.sizeToFit()
         
-        let done = UIBarButtonItem(title: "Select", style: UIBarButtonItemStyle.Done, target: self, action: "doneClicked:");
+        let done = UIBarButtonItem(title: "Select", style: UIBarButtonItemStyle.Done, target: self, action: #selector(STComboBox.doneClicked(_:)));
         
         
-        let cancel = UIBarButtonItem(title: "Cancel", style: UIBarButtonItemStyle.Plain, target: self, action: "cancelClicked:")
+        let cancel = UIBarButtonItem(title: "Cancel", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(STComboBox.cancelClicked(_:)));
         
         toolBar = pickerToolbar;
         
