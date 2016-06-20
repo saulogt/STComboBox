@@ -56,14 +56,14 @@ import UIKit
         //ret.barStyle = toolBarStyle
         pickerToolbar.sizeToFit()
         
-        let done = UIBarButtonItem(title: "Select", style: UIBarButtonItemStyle.Done, target: self, action: #selector(STComboBox.doneClicked(_:)));
+        let done = UIBarButtonItem(title: "Select", style: UIBarButtonItemStyle.done, target: self, action: #selector(STComboBox.doneClicked(btn:)));
         
         
-        let cancel = UIBarButtonItem(title: "Cancel", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(STComboBox.cancelClicked(_:)));
+        let cancel = UIBarButtonItem(title: "Cancel", style: UIBarButtonItemStyle.plain, target: self, action: #selector(STComboBox.cancelClicked(btn:)));
         
         toolBar = pickerToolbar;
         
-        toolBar?.setItems([cancel, UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.FlexibleSpace, target: nil, action: nil), done], animated: true);
+        toolBar?.setItems([cancel, UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil), done], animated: true);
         
         
         pickerView.delegate = self;
@@ -74,11 +74,12 @@ import UIKit
         self.inputAccessoryView = toolBar
     }
     
-    public func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+    public func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
     
-    public func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+    
+    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return data?.count ?? 0
     }
     
@@ -90,7 +91,7 @@ import UIKit
     
     public func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
         if data?.count ?? 0 > 0 {
-            showPicker(textField);
+            showPicker(textField: textField);
             return true
         }
         return false
@@ -107,7 +108,7 @@ import UIKit
     
     func doneClicked(btn: AnyObject?){
         
-        let idx = pickerView.selectedRowInComponent(0);
+        let idx = pickerView.selectedRow(inComponent: 0);
         
         let txt = data![idx];
         self.text = txt
@@ -125,7 +126,7 @@ import UIKit
     
     //MARK: - disable paste and select
     
-    public override func canPerformAction(action: Selector, withSender sender: AnyObject?) -> Bool {
+    public override func canPerformAction(_ action: Selector, withSender sender: AnyObject?) -> Bool {
         if action == #selector(UITextField.paste(_:)) ||
             action == #selector(UITextField.select(_:)) ||
             action == #selector(UITextField.cut(_:))  ||
