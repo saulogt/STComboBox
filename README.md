@@ -22,7 +22,7 @@ pod "STComboBox"
 
 ## Author
 
-Saulo Tauil, saulogt@gmail.com
+Saulo Tauil, saulotauil@g_mail.com
 
 ## License
 
