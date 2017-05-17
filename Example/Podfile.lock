@@ -1,5 +1,5 @@
 PODS:
-  - STComboBox (0.1.0)
+  - STComboBox (0.1.1)
 
 DEPENDENCIES:
   - STComboBox (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  STComboBox: e8f02cd940bacc88e016c40cf9095a4560d07ba7
+  STComboBox: a33db148a979926f24cb6d6391d5df480c402264
 
 PODFILE CHECKSUM: 9f9a0ce914cb13bef11492aa3780644faa61f653
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.1
