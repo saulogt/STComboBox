@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/saulogt/STComboBox"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Saulo Tauil" => "saulogt@gmail.com" }
+  s.author           = { "Saulo Tauil" => "saulotauil@g_mail.com" }
   s.source           = { :git => "https://github.com/saulogt/STComboBox.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/saulogt'
 
